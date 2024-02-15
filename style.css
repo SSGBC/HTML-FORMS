@@ -1,7 +1,17 @@
 body {
-    padding: 10px;
+    display:block;
+    margin: 10px;
   }
   
-  input {
-    margin: 5px;
+form {
+  padding-right: 6px;
   }
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 200px;
+}
